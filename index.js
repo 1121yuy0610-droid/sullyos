@@ -1,7 +1,7 @@
 const http = require('http');
 const https = require('https');
 
-const UPSTREAM = "https://sullyos-ams.sullyos.workers.dev";
+const UPSTREAM = "https://sullyos-amsg.1121yuy0610.workers.dev";
 
 const server = http.createServer((req, res) => {
   const targetUrl = new URL(req.url, UPSTREAM);
